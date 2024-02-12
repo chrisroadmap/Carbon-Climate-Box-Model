@@ -1,0 +1,8 @@
+name: Carbon-Climate-Box-Model
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib
+  - netcdf4
+  - numpy
+  - pandas

@@ -16,6 +16,20 @@ This repository contains a simple process-based box model for Temperature and Ca
  
 ![Figure not found](CModel_example.png?raw=true "Box model results for scenario SSP2-4.5")
 
+## Reproduction
+
+Create a conda environment from the built in environment file:
+
+```
+conda env create -f environment.yml
+```
+
+This will create an environment called `Carbon-Climate-Box-Model`. Then simply acitvate it:
+
+```
+conda activate Carbon-Climate-Box-Model
+```
+
 ## References
 
 Lenton, T. M.: Land and ocean carbon cycle feedback effects on global warming in a simple Earth system model, Tellus B: Chemical and Physical Meteorology, 52:5, 1159-1188, https://doi.org/10.3402/tellusb.v52i5.17097, 2000.
